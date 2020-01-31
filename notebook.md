@@ -3,6 +3,8 @@
 ## Week 01/25/2020 - 01/31/2020
 
 * Read Cloud computing architectures
+* Installed Ubuntu server in AWS and installed python3.x
+* Followed the link https://cloudmesh.github.io/cloudmesh-manual/installation/install.html to complete cloudmesh env setup
 * Read Python chapter.
 * Answered venv question (see below).
 
