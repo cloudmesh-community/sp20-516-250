@@ -1,2 +1,2 @@
-# AWS Sagemaker Ground Truth hid, lastname, firtsname
+# AWS Sagemaker Ground Truth sp20-516-250, Palani, Senthil
 
