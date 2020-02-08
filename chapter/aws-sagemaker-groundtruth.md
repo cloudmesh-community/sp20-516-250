@@ -19,7 +19,8 @@ In Supervised learning technique, well "labeled" data will be used to train the 
 ## UnSupervised Learning:
 In Unsupervised learning technique, develoepr will allow the model to work on its own to discover information. It mainly deals with the unlabelled data. Because of this, unsupervised learning algorithms allow developers to perform more complex processing tasks compared to supervised learning. 
 
-![Supervised vs Unsupervised](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DXKJBpKSJSnQ&psig=AOvVaw1aKllhrjrwYq79Imw1kxE8&ust=1581285918016000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNihvqL7wucCFQAAAAAdAAAAABAJ)
+![Supervised vs Unsupervised](https://learncuriously.files.wordpress.com/2018/12/supervised-learning-diagram.jpg)
+
 
 
 #### Amazon Connect
