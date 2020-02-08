@@ -1,7 +1,5 @@
 # AWS Sagemaker Ground Truth sp20-516-250, Palani, Senthil
 
-### Intro
-
 ### AWS Sagemaker Introduction:
 
 Amazon Sagemaker is a managed service that enables data scientist, and developers to develop, build, train and deploy machine learning models quickly with very minimal upfront investment in hardware. Being one of the popular AWS cloud managed service, this completely eliminates heavy lift tasks such as hardware provisioning and scaling to help developers to create high quality models by easily select all popular algorithm.
@@ -11,7 +9,18 @@ SageMaker solves all of these challenges by providing all the necessary componen
 
 ![Building Blocks of Amazon SageMaker](https://d1.awsstatic.com/re19/Sagemaker/SageMaker_Overview-Chart.247eaea6e41ddca8299c5a9a9e91b5d78b751c38.png)
 
+
 ### AWS Sagemaker Groundtruth Introduction:
+Before we talk about AWS SageMaker Groundtruth, let us understand the differnce between supervwised and unsupervised mchine learning technique:
+
+## Supervised Learning:
+In Supervised learning technique, well "labeled" data will be used to train the model. Here, mechine learning algorithm learns from the existing labeled training data and helps developer to predict outcomes for unforeseen data.
+
+## UnSupervised Learning:
+In Unsupervised learning technique, develoepr will allow the model to work on its own to discover information. It mainly deals with the unlabelled data. Because of this, unsupervised learning algorithms allow developers to perform more complex processing tasks compared to supervised learning. 
+
+![Supervised vs Unsupervised](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.datanami.com%2F2018%2F09%2F05%2Fhow-to-build-a-better-machine-learning-pipeline%2F&psig=AOvVaw1aKllhrjrwYq79Imw1kxE8&ust=1581285918016000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNihvqL7wucCFQAAAAAdAAAAABAD)
+
 
 #### Amazon Connect
 
