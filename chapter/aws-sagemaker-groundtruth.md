@@ -32,59 +32,18 @@ Amazon SageMaker GroundTruth uses the most innovative algorithms to improve the 
 
 Under the hood, SageMaker GroundTruth use the machine learning to automate the data labeling process. As a first step, the service selects some random samples from the given data set and send it to humans to get labeled. AAs a next step the results are used to further train the underlying machine learning labeling model which further attempts to label any given new raw datasets automatically. Also, the final lables are committed only when the model gets the confidence score, which meets or exceeds the highest threshold. If the confidence score goes below the threshold, the dataset samples will be sent it to human for re-labeling process to improve the accuracy. This cycle gets repeated with the every given sample raw data to the model becomes more capable to automatically label the raw data with very high accuracy and less intervention to human corrections and further labeling.
 
-Demo:
+AWS Official FAQ:
 
-* <https://www.youtube.com/watch?v=yGJdYbwb8j0>
+* <https://aws.amazon.com/sagemaker/groundtruth/faqs/>
 
-#### Amazon Transcribe
-
-Demo:
-
-* <https://www.youtube.com/watch?v=-LoGnDMKesw>
-
-#### Amazon Comprehend 
-
-##### Overview
-
-Amazon Comprehensive gives insights based on analyzing text materials by Natural Language Processing (NLP). It could identify the languages, entities, make relations with terms or topics, detect the sentiment. Amazon Comprehensive can be customized to find specific words or phrases of interests, such as membership, cancellation or part codes. 
-
-Amazon Comprehend Medical is specific for better extracting information from medical notes or reports. It can accurately draw information from complex and various types of medical terms, such as dosages, strengths, frequencies, and medications. Amazon Comprehend Medical can connect related medications with dosages, strengths, and frequencies.
-
-##### Features:
-
-    * Keyphrase Extraction
-    * Sentiment Analysis
-    * Syntax Analysis
-    * Entity Recognition
-    * Comprehend Medical
-        * Medical Named Entity and Relationship Extraction (NERe)
-        * Medical Ontology Linking
-    * Custom Entities
-    * Language Detection
-    * Custom Classification
-    * Topic Modeling
-    * Multiple language support
-
-
-
-* <https://aws.amazon.com/comprehend/features/> 
 
 ##### Pricing
 
-The machine learning model was pre-trained; users do not need to know how to do machine learning, train their model, nor deploy it. AWS fully manages the service, and users only pay for what they used base on the amount of text. 
+User only pay for each labeled object labeled automatically by SageMaker GroundTruth or human labeler. These objects can be  the section of text or an image or an audio recording, etc.,. Or, If an user hire a vendor or AWS Mechanical Turk service to provide labels, they will pay an additional cost per labeled object. 
 
-The Amazon Comprehensive free tier is available for AWS customers for 12 months, starting from the time requiring the Amazon Comprehensive service.
-
-* <https://aws.amazon.com/comprehend/pricing/>
+* <https://aws.amazon.com/sagemaker/groundtruth/pricing/>
 
 
-#### Amazon Translate
-
-Amazon Translate 
-
-### Architecture
-
-image: AWS solution architecture
 
 ### Use Cases
 
