@@ -53,7 +53,7 @@ For an example: Following visual instruction is one of the example to help user 
 ## 4.Use workflows to simplify labeling tasks
 GroundTruth comes with built in workflows such as object detection, text classification, semantic segmentation, image classification that helps human labels to follow step by step instruction to produce high-accuracy.
 
-##### Pricing
+#### Pricing
 
 User only pay for each labeled object labeled automatically by SageMaker GroundTruth or human labeler. These objects can be  the section of text or an image or an audio recording, etc.,. Or, If an user hire a vendor or AWS Mechanical Turk service to provide labels, they will pay an additional cost per labeled object. 
 
