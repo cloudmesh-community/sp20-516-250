@@ -1,2 +1,74 @@
 # AWS Sagemaker Ground Truth sp20-516-250, Palani, Senthil
 
+### Intro
+
+### AWS Sagemaker Introduction:
+
+Amazon Sagemaker is a managed service that enables data scientist, and developers to develop, build, train and deploy machine learning models quickly with very minimal upfront investment in hardware. Being one of the popular AWS cloud managed service, this completely eliminates heavy lift tasks such as hardware provisioning and scaling to help developers to create high quality models by easily select all popular algorithm.
+
+In general, the Machine learning, development process is complex and quite expensive process as there is no integrated tools for the entire ML workflow. This makes, developer and scientist to research and try many different tools and then stitch it together to create workflows and framework, which is most of the time very time consuming and also error-prone process.
+SageMaker solves all of these challenges by providing all the necessary components required for machine learning process in a single toolkit as a service so the production ready models are created faster with minimal effort and cost.
+
+![Building Blocks of Amazon SageMaker](https://d1.awsstatic.com/re19/Sagemaker/SageMaker_Overview-Chart.247eaea6e41ddca8299c5a9a9e91b5d78b751c38.png)
+
+### AWS Sagemaker Groundtruth Introduction:
+
+#### Amazon Connect
+
+Demo:
+
+* <https://www.youtube.com/watch?v=yGJdYbwb8j0>
+
+#### Amazon Transcribe
+
+Demo:
+
+* <https://www.youtube.com/watch?v=-LoGnDMKesw>
+
+#### Amazon Comprehend 
+
+##### Overview
+
+Amazon Comprehensive gives insights based on analyzing text materials by Natural Language Processing (NLP). It could identify the languages, entities, make relations with terms or topics, detect the sentiment. Amazon Comprehensive can be customized to find specific words or phrases of interests, such as membership, cancellation or part codes. 
+
+Amazon Comprehend Medical is specific for better extracting information from medical notes or reports. It can accurately draw information from complex and various types of medical terms, such as dosages, strengths, frequencies, and medications. Amazon Comprehend Medical can connect related medications with dosages, strengths, and frequencies.
+
+##### Features:
+
+    * Keyphrase Extraction
+    * Sentiment Analysis
+    * Syntax Analysis
+    * Entity Recognition
+    * Comprehend Medical
+        * Medical Named Entity and Relationship Extraction (NERe)
+        * Medical Ontology Linking
+    * Custom Entities
+    * Language Detection
+    * Custom Classification
+    * Topic Modeling
+    * Multiple language support
+
+
+
+* <https://aws.amazon.com/comprehend/features/> 
+
+##### Pricing
+
+The machine learning model was pre-trained; users do not need to know how to do machine learning, train their model, nor deploy it. AWS fully manages the service, and users only pay for what they used base on the amount of text. 
+
+The Amazon Comprehensive free tier is available for AWS customers for 12 months, starting from the time requiring the Amazon Comprehensive service.
+
+* <https://aws.amazon.com/comprehend/pricing/>
+
+
+#### Amazon Translate
+
+Amazon Translate 
+
+### Architecture
+
+image: AWS solution architecture
+
+### Use Cases
+
+* <https://aws.amazon.com/machine-learning/ai-services/>
