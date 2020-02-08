@@ -21,9 +21,15 @@ In Unsupervised learning technique, develoepr will allow the model to work on it
 
 ![Supervised vs Unsupervised](https://learncuriously.files.wordpress.com/2018/12/supervised-learning-diagram.jpg)
 
+## Oky, what is the challange in using unsupervised learning? 
+Below are some of the major challages:
+1. When exploring data using cluster, it is hard to define the number of cluster groups.
+2. Unlike supervised learning; evaluating the metrics and results are very difficult as there is no baseline ground truth (labes) to cross verify.
 
+#### What is Amazon SageMaker GroundTruth?
+SageMaker GroundTruth is an AWS Managed service which helps the users to accurately label the given dataset in a very efficient and quicker way. There are many approaches that enterprise use to label the large data sets, like using their own workforce (employees) or one of the third party labeling service providers or using Amazon Mechanical Turk workforce (crowdsourced).
+Amazon SageMaker GroundTruth uses the most innovative algorithms to improve the accuracy of human labeling process. Over time, SageMaker GroundTruh model gets improved in a progressive way by learning continuously from the human created labels and further increase speed and efficiency of automatic labeling process.
 
-#### Amazon Connect
 
 Demo:
 
