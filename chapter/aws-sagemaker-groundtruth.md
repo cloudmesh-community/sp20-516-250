@@ -36,6 +36,22 @@ AWS Official FAQ:
 
 * <https://aws.amazon.com/sagemaker/groundtruth/faqs/>
 
+#### Amazon SageMaker Ground Truth Features
+
+## 1. Automated Data Labeling
+At a high-level, the service uses the required machine learning algorithm to improve the accuracy and reduce the human intervention for review and labeling to automate the overall process. 
+
+## 2. Flexibility in how you work with labeling professionals
+The service supports various options for manual labeling directly in the SageMaker Ground Truth Console. For an example; Using private workforce or AWS Mechanical Turk or AWS market place (verified) professionals. 
+
+## 3.Easy instructions for human labeling
+GroundTruh service helps the user to follow industry standard and best practice guidance to label any given data set.
+For an example: Following visual instruction is one of the example to help user to attain the highest standard to label the objecgt.
+
+![Building Blocks of Amazon SageMaker](https://d1.awsstatic.com/r2018/r/Samurai/SamurAI%20Customer%20Assets/SamurAI%20Instructions%20for%20Bounding%20Box.c942d04c735161bbd6c8979f371fa9f7ef5a9fc3.png)
+
+## 4.Use workflows to simplify labeling tasks
+GroundTruth comes with built in workflows such as object detection, text classification, semantic segmentation, image classification that helps human labels to follow step by step instruction to produce high-accuracy.
 
 ##### Pricing
 
@@ -44,7 +60,3 @@ User only pay for each labeled object labeled automatically by SageMaker GroundT
 * <https://aws.amazon.com/sagemaker/groundtruth/pricing/>
 
 
-
-### Use Cases
-
-* <https://aws.amazon.com/machine-learning/ai-services/>
