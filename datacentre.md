@@ -14,6 +14,8 @@ Today's top cloud providers like Amazon web services (AWS), Microsoft Azure and 
 
 Microsoft’s self-proclaimed goal is to “make the data center disappear” by totally eliminating the environmental impact of its server farms. The company has been carbon neutral since 2012, and including its RECs, it has run on 100 percent renewable energy since 2014. Without RECs, Microsoft’s data centers run on 60 percent renewable electricity and the company plans to boost this to 70 percent renewable energy by 2023.
 
+### Amazon Web Services
+
 ## E.DataCenter.2.b
 
 Data Centre | Location | Year | Electricy Cost | IT Load | Yearly Cost | Yearly CO2 Footprint | Equivalent in cars 
