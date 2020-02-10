@@ -5,16 +5,20 @@ Today's one of the frequent international headline is industry and data centre C
 As we all know, "Data is the new oil" data centers account for at least 2 percent of all electricity use in the United States of America. Per U.S Environmental Protection Agency (EPA) report, data centers in USA consumed almost 61 billion Kilowatt-hours of electrical power in 2006. Also, EPA mandate government agencies to develop plans and strategies. strategies for energy efficient data centers for Govenments with a target of 20% energy efficiency improvement by 2011.
 
 ### Google Cloud
-
 Today's top cloud providers like Amazon web services (AWS), Microsoft Azure and Google Cloud for approximately 2/3 of all rentable computing service. Out of these three big data Centre holders, Google has the smallest share, but most decorbonize its data. In the year 2007, Google announced that it has achieved almost 100% renewable energy across all of its data center operations and it's Google claims that most of the data processed by Google Cloud has almost zero carbon emissions.
 
 ![Building Blocks of Amazon SageMaker](https://media.wired.com/photos/5de7f07aec5b5300087be597/master/w_1600%2Cc_limit/science_M22567.jpg)
 
 ### Microsoft Azure
+One of Microsoft's vision and goal is to make the data center disappear by avoiding and eliminating any environmental impact of its server clusters and farms. Microsoft consciously in working on carbon neutral since the year 2012 and 100 percent run on renewable energy since 2014.Right now, 60% of Microsfofts electric utilization are renewable and it has plans to improve it to 70% by the end of year 2023. 
 
-Microsoft’s self-proclaimed goal is to “make the data center disappear” by totally eliminating the environmental impact of its server farms. The company has been carbon neutral since 2012, and including its RECs, it has run on 100 percent renewable energy since 2014. Without RECs, Microsoft’s data centers run on 60 percent renewable electricity and the company plans to boost this to 70 percent renewable energy by 2023.
+![Building Blocks of Amazon SageMaker](https://media.wired.com/photos/5de7f0710e773300087dbb3e/master/w_1600%2Cc_limit/Science_AWSdatacenter-587177040.jpg)
 
 ### Amazon Web Services
+
+Amazon Web Services is by far the biggest cloud computing provider, with well over one-third of the market. In 2014, CEO Jeff Bezos announced a long-term commitment to power all of Amazon’s data centers with 100 percent renewable energy. It has since constructed several wind and solar farms. Earlier this year, Bezos promised to achieve net zero carbon emissions by 2040 after facing significant pressure from employees and investors. In 2018, Amazon announced it had achieved 50 percent renewable energy usage across the company when RECs are factored in.
+
+Per Gartner reort, Amazon Web services (AWS) is 
 
 ## E.DataCenter.2.b
 
@@ -22,16 +26,6 @@ Data Centre | Location | Year | Electricy Cost | IT Load | Yearly Cost | Yearly 
 --- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
 Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
 
-
-## E.DataCenter.4 Thermal
-
-
-
-## E.DataCenter.5
-
-
-
-## E.DataCenter.8
 
 
 
