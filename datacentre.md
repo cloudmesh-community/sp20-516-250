@@ -18,13 +18,7 @@ One of Microsoft's vision and goal is to make the data center disappear by avoid
 
 Amazon Web Services is by far the biggest cloud computing provider, with well over one-third of the market. In 2014, CEO Jeff Bezos announced a long-term commitment to power all of Amazon’s data centers with 100 percent renewable energy. It has since constructed several wind and solar farms. Earlier this year, Bezos promised to achieve net zero carbon emissions by 2040 after facing significant pressure from employees and investors. In 2018, Amazon announced it had achieved 50 percent renewable energy usage across the company when RECs are factored in.
 
-Per Gartner reort, Amazon Web services (AWS) is 
 
-## E.DataCenter.2.b
-
-Data Centre | Location | Year | Electricy Cost | IT Load | Yearly Cost | Yearly CO2 Footprint | Equivalent in cars 
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
 
 
 
