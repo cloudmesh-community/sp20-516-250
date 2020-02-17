@@ -20,7 +20,8 @@ Amazon Web Services is by far the biggest cloud computing provider, with well ov
 
 
 
-
+## Reference
+https://www.se.com/ww/en/work/solutions/system/s1/data-center-and-network-systems/trade-off-tools/data-center-carbon-footprint-comparison-calculator/
 
 
 
