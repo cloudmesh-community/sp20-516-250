@@ -1,7 +1,5 @@
 ## E.Multipass.1: MACOs  Installation Steps
 
-Multipass by default does not support Windows 10 Home. You will need to install Virtual Box for using Multipass on Windows 10 Home.
-
 * Download Install latest version of Multipass <https://multipass.run/docs/installing-on-macos.run/>
 * To Launch an instance (by default you get the current Ubuntu LTS) : multipass launch --name ubuntu-lts
 
