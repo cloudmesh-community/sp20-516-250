@@ -48,7 +48,7 @@ The service supports various options for manual labeling directly in the SageMak
 GroundTruh service helps the user to follow industry standard and best practice guidance to label any given data set.
 For an example: Following visual instruction is one of the example to help user to attain the highest standard to label the objecgt.
 
-![Building Blocks of Amazon SageMaker](https://d1.awsstatic.com/r2018/r/Samurai/SamurAI%20Customer%20Assets/SamurAI%20Instructions%20for%20Bounding%20Box.c942d04c735161bbd6c8979f371fa9f7ef5a9fc3.png)
+''![Building Blocks of Amazon SageMaker](https://d1.awsstatic.com/r2018/r/Samurai/SamurAI%20Customer%20Assets/SamurAI%20Instructions%20for%20Bounding%20Box.c942d04c735161bbd6c8979f371fa9f7ef5a9fc3.png)
 
 ## 4.Use workflows to simplify labeling tasks
 GroundTruth comes with built in workflows such as object detection, text classification, semantic segmentation, image classification that helps human labels to follow step by step instruction to produce high-accuracy.
