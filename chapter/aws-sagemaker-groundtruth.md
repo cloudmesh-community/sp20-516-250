@@ -9,7 +9,7 @@ SageMaker solves all of these challenges by providing all the necessary componen
 
 ![Building Blocks of Amazon SageMaker](https://d1.awsstatic.com/re19/Sagemaker/SageMaker_Overview-Chart.247eaea6e41ddca8299c5a9a9e91b5d78b751c38.png)
 
-| *Fig.1: Building Blocks of Amazon SageMaker*|
+*Fig.1: Building Blocks of Amazon SageMaker*
 
 
 ## AWS Sagemaker Groundtruth Introduction:
