@@ -8,9 +8,9 @@ In general, the Machine learning, development process is complex and quite expen
 SageMaker solves all of these challenges by providing all the necessary components required for machine learning process in a single toolkit as a service so the production ready models are created faster with minimal effort and cost.
 
 ![Building Blocks of Amazon SageMaker](https://d1.awsstatic.com/re19/Sagemaker/SageMaker_Overview-Chart.247eaea6e41ddca8299c5a9a9e91b5d78b751c38.png)
+*Fig. 1: Building Blocks of Amazon SageMaker*
 
-*Fig.1: Building Blocks of Amazon SageMaker*
-![Figure example](images/code.png){#fig:code-example width=1in}
+
 
 
 ## AWS Sagemaker Groundtruth Introduction:
@@ -23,6 +23,7 @@ In Supervised learning technique, well "labeled" data will be used to train the 
 In Unsupervised learning technique, develoepr will allow the model to work on its own to discover information. It mainly deals with the unlabelled data. Because of this, unsupervised learning algorithms allow developers to perform more complex processing tasks compared to supervised learning. 
 
 ![Supervised vs Unsupervised](https://learncuriously.files.wordpress.com/2018/12/supervised-learning-diagram.jpg)
+*Fig. 2: Supervised vs Unsupervised*
 
 ## Oky, what is the challange in using unsupervised learning? 
 Below are some of the major challages:
@@ -51,7 +52,9 @@ The service supports various options for manual labeling directly in the SageMak
 GroundTruh service helps the user to follow industry standard and best practice guidance to label any given data set.
 For an example: Following visual instruction is one of the example to help user to attain the highest standard to label the objecgt.
 
-''![Building Blocks of Amazon SageMaker](https://d1.awsstatic.com/r2018/r/Samurai/SamurAI%20Customer%20Assets/SamurAI%20Instructions%20for%20Bounding%20Box.c942d04c735161bbd6c8979f371fa9f7ef5a9fc3.png)
+''![Image Inspection](https://d1.awsstatic.com/r2018/r/Samurai/SamurAI%20Customer%20Assets/SamurAI%20Instructions%20for%20Bounding%20Box.c942d04c735161bbd6c8979f371fa9f7ef5a9fc3.png)
+*Fig. 3: Image Inspection*
+
 
 ## 4.Use workflows to simplify labeling tasks
 GroundTruth comes with built in workflows such as object detection, text classification, semantic segmentation, image classification that helps human labels to follow step by step instruction to produce high-accuracy.
