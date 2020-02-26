@@ -1,5 +1,13 @@
 # AWS Sagemaker Ground Truth sp20-516-250, Palani, Senthil
 
+:o2: caption citations missing
+
+:o2: no : at end of in section titles
+
+:o2: missing empty lines
+
+:o2: add bibtex
+
 ### AWS Sagemaker Introduction:
 
 Amazon Sagemaker is a managed service that enables data scientist, and developers to develop, build, train and deploy machine learning models quickly with very minimal upfront investment in hardware. Being one of the popular AWS cloud managed service, this completely eliminates heavy lift tasks such as hardware provisioning and scaling to help developers to create high quality models by easily select all popular algorithm.
