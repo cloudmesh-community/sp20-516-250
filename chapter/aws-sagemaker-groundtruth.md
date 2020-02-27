@@ -8,7 +8,7 @@
 
 :o2: add bibtex
 
-### AWS Sagemaker Introduction:
+### AWS Sagemaker Introduction
 
 Amazon Sagemaker is a managed service that enables data scientist, and developers to develop, build, train and deploy machine learning models quickly with very minimal upfront investment in hardware. Being one of the popular AWS cloud managed service, this completely eliminates heavy lift tasks such as hardware provisioning and scaling to help developers to create high quality models by easily select all popular algorithm.
 
@@ -20,14 +20,13 @@ SageMaker solves all of these challenges by providing all the necessary componen
 
 
 
-
-## AWS Sagemaker Groundtruth Introduction:
+## AWS Sagemaker Groundtruth Introduction
 Before we talk about AWS SageMaker Groundtruth, let us understand the differnce between supervwised and unsupervised mchine learning technique:
 
-## Supervised Learning:
+## Supervised Learning
 In Supervised learning technique, well "labeled" data will be used to train the model. Here, mechine learning algorithm learns from the existing labeled training data and helps developer to predict outcomes for unforeseen data.
 
-## UnSupervised Learning:
+## UnSupervised Learning
 In Unsupervised learning technique, develoepr will allow the model to work on its own to discover information. It mainly deals with the unlabelled data. Because of this, unsupervised learning algorithms allow developers to perform more complex processing tasks compared to supervised learning. 
 
 ![Supervised vs Unsupervised](https://learncuriously.files.wordpress.com/2018/12/supervised-learning-diagram.jpg)
@@ -44,7 +43,7 @@ Amazon SageMaker GroundTruth uses the most innovative algorithms to improve the 
 
 Under the hood, SageMaker GroundTruth use the machine learning to automate the data labeling process. As a first step, the service selects some random samples from the given data set and send it to humans to get labeled. AAs a next step the results are used to further train the underlying machine learning labeling model which further attempts to label any given new raw datasets automatically. Also, the final lables are committed only when the model gets the confidence score, which meets or exceeds the highest threshold. If the confidence score goes below the threshold, the dataset samples will be sent it to human for re-labeling process to improve the accuracy. This cycle gets repeated with the every given sample raw data to the model becomes more capable to automatically label the raw data with very high accuracy and less intervention to human corrections and further labeling.
 
-AWS Official FAQ:
+AWS Official FAQ
 
 * <https://aws.amazon.com/sagemaker/groundtruth/faqs/>
 
