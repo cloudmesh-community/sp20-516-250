@@ -62,7 +62,7 @@ For an example: Following visual instruction is one of the example to help user 
 ''![Image Inspection](https://d1.awsstatic.com/r2018/r/Samurai/SamurAI%20Customer%20Assets/SamurAI%20Instructions%20for%20Bounding%20Box.c942d04c735161bbd6c8979f371fa9f7ef5a9fc3.png)
 *Fig. 3: Image Inspection*
 
-![Figure example [@las14cloudmeshmultiple]](images/code.png){#fig:code-example width=1in}
+![Figure Image Inspection [@las14cloudmeshmultiple]](images/code.png){#fig:Image Inspection -example width=1in}
 
 
 ## 4.Use workflows to simplify labeling tasks
