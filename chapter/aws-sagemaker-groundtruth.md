@@ -31,9 +31,6 @@ In Unsupervised learning technique, develoepr will allow the model to work on it
 
 ![Supervied-Learning Example[@GroundTruth-sp20-516-250]](./supervised-learning.png){#fig:Supervised width=1in}
 
-
-*Fig. 2: Supervised vs Unsupervised*
-
 ## Oky, what is the challange in using unsupervised learning? 
 Below are some of the major challages:
 1. When exploring data using cluster, it is hard to define the number of cluster groups.
