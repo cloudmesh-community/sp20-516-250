@@ -29,7 +29,9 @@ In Supervised learning technique, well "labeled" data will be used to train the 
 ## UnSupervised Learning
 In Unsupervised learning technique, develoepr will allow the model to work on its own to discover information. It mainly deals with the unlabelled data. Because of this, unsupervised learning algorithms allow developers to perform more complex processing tasks compared to supervised learning. 
 
-![Supervised vs Unsupervised](https://learncuriously.files.wordpress.com/2018/12/supervised-learning-diagram.jpg)
+![Supervied-Learning Example[@GroundTruth-sp20-516-250]](./supervised-learnin.png){#fig:Supervised width=1in}
+
+
 *Fig. 2: Supervised vs Unsupervised*
 
 ## Oky, what is the challange in using unsupervised learning? 
@@ -59,11 +61,7 @@ The service supports various options for manual labeling directly in the SageMak
 GroundTruh service helps the user to follow industry standard and best practice guidance to label any given data set.
 For an example: Following visual instruction is one of the example to help user to attain the highest standard to label the objecgt.
 
-''![Image Inspection](https://d1.awsstatic.com/r2018/r/Samurai/SamurAI%20Customer%20Assets/SamurAI%20Instructions%20for%20Bounding%20Box.c942d04c735161bbd6c8979f371fa9f7ef5a9fc3.png)
-*Fig. 3: Image Inspection*
-
-![Human Labeling Instruction Example[@GroundTruth-sp20-516-250]](./HumanLabel.png){#fig:Human Labeling Instruction width=1in}
-
+![Labeling Example[@GroundTruth-sp20-516-250]](./HumanLabel.png){#fig:Human Labeling Instruction width=1in}
 
 ## 4.Use workflows to simplify labeling tasks
 GroundTruth comes with built in workflows such as object detection, text classification, semantic segmentation, image classification that helps human labels to follow step by step instruction to produce high-accuracy.
