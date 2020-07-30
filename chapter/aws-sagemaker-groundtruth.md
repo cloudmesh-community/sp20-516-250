@@ -9,8 +9,8 @@ Amazon Sagemaker is a managed service that enables data scientist, and developer
 In general, the Machine learning, development process is complex and quite expensive process as there is no integrated tools for the entire ML workflow. This makes, developer and scientist to research and try many different tools and then stitch it together to create workflows and framework, which is most of the time very time consuming and also error-prone process.
 SageMaker solves all of these challenges by providing all the necessary components required for machine learning process in a single toolkit as a service so the production ready models are created faster with minimal effort and cost.
 
-![Building Blocks of Amazon SageMaker](https://d1.awsstatic.com/re19/Sagemaker/SageMaker_Overview-Chart.247eaea6e41ddca8299c5a9a9e91b5d78b751c38.png)
-*Fig. 1: Building Blocks of Amazon SageMaker*
+![Building Blocks of Amazon SageMaker](images//SageMaker_Overview-Chart.247eaea6e41ddca8299c5a9a9e91b5d78b751c38.png){#fig:sagemaker1}
+
 
 ## Supervised and unsupervised Learning
 
@@ -21,7 +21,7 @@ Before we talk about AWS SageMaker Groundtruth, let us understand the differnce 
 * **UnSupervised Learning**: In Unsupervised learning technique, develoepr will allow 
   the model to work on its own to discover information. It mainly deals with the 
   unlabelled data. Because of this, unsupervised learning algorithms allow developers 
-  to perform more complex processing tasks compared to supervised learning (see @fig:Supervised width=1in). 
+  to perform more complex processing tasks compared to supervised learning (see @fig:Supervised). 
 
 
   Some of the major challages of unsupervised learning include:
@@ -30,7 +30,7 @@ Before we talk about AWS SageMaker Groundtruth, let us understand the differnce 
   2. Unlike supervised learning; evaluating the metrics and results are very difficult 
      as there is no baseline ground truth (labes) to cross verify.
 
-![Supervied-Learning Example[@GroundTruth-sp20-516-250]](./supervised-learning.png){#fig:Supervised}
+![Supervied-Learning Example[@GroundTruth-sp20-516-250]](images/supervised-learning.png){#fig:Supervised}
 
 
 ### SageMaker GroundTruth
@@ -57,14 +57,14 @@ Features include:
 3. Easy instructions for human labeling: GroundTruh service helps the user to follow 
    industry standard and best practice guidance to label any given data set.
    For an example: Following visual instruction is one of the example to help user to 
-   attain the highest standard to label the objecgt (see @fig:Human Labeling Instruction)
+   attain the highest standard to label the objecgt (see @fig:HumanLabelingInstruction).
 
 
 4. Use workflows to simplify labeling tasks: GroundTruth comes with built in workflows such 
    as object detection, text classification, semantic segmentation, image classification 
    that helps human labels to follow step by step instruction to produce high-accuracy.
 
-![Labeling Example[@GroundTruth-sp20-516-250]](./HumanLabel.png){#fig:Human Labeling Instruction}
+![Labeling Example[@GroundTruth-sp20-516-250]](images/HumanLabel.png){#fig:HumanLabelingInstruction}
 
 
 ## Pricing
