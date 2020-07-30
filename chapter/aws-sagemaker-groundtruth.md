@@ -33,7 +33,7 @@ Before we talk about AWS SageMaker Groundtruth, let us understand the differnce 
 ![Supervied-Learning Example[@GroundTruth-sp20-516-250]](./supervised-learning.png){#fig:Supervised}
 
 
-### SageMaker GroundTruth?
+### SageMaker GroundTruth
 
 SageMaker GroundTruth is an AWS Managed service which helps the users to accurately label the given dataset in a very efficient and quicker way. There are many approaches that enterprise use to label the large data sets, like using their own workforce (employees) or one of the third party labeling service providers or using Amazon Mechanical Turk workforce (crowdsourced).
 Amazon SageMaker GroundTruth uses the most innovative algorithms to improve the accuracy of human labeling process. Over time, SageMaker GroundTruh model gets improved in a progressive way by learning continuously from the human created labels and further increase speed and efficiency of automatic labeling process.
