@@ -1,14 +1,8 @@
-# AWS Sagemaker Ground Truth sp20-516-250, Palani, Senthil
+# AWS Sagemaker Ground Truth 
 
-:o2: caption citations missing
+Senthil Palani, sp20-516-250, modified by Gregor von Laszewski
 
-:o2: no : at end of in section titles
-
-:o2: missing empty lines
-
-:o2: add bibtex
-
-### AWS Sagemaker Introduction
+## Introduction
 
 Amazon Sagemaker is a managed service that enables data scientist, and developers to develop, build, train and deploy machine learning models quickly with very minimal upfront investment in hardware. Being one of the popular AWS cloud managed service, this completely eliminates heavy lift tasks such as hardware provisioning and scaling to help developers to create high quality models by easily select all popular algorithm.
 
@@ -18,25 +12,29 @@ SageMaker solves all of these challenges by providing all the necessary componen
 ![Building Blocks of Amazon SageMaker](https://d1.awsstatic.com/re19/Sagemaker/SageMaker_Overview-Chart.247eaea6e41ddca8299c5a9a9e91b5d78b751c38.png)
 *Fig. 1: Building Blocks of Amazon SageMaker*
 
+## Supervised and unsupervised Learning
 
-
-## AWS Sagemaker Groundtruth Introduction
 Before we talk about AWS SageMaker Groundtruth, let us understand the differnce between supervwised and unsupervised mchine learning technique:
 
-## Supervised Learning
-In Supervised learning technique, well "labeled" data will be used to train the model. Here, mechine learning algorithm learns from the existing labeled training data and helps developer to predict outcomes for unforeseen data.
+* **Supervised Learning**: In Supervised learning technique, well "labeled" data will be used to train the model. Here, mechine learning algorithm learns from the existing labeled training data and helps developer to predict outcomes for unforeseen data.
 
-## UnSupervised Learning
-In Unsupervised learning technique, develoepr will allow the model to work on its own to discover information. It mainly deals with the unlabelled data. Because of this, unsupervised learning algorithms allow developers to perform more complex processing tasks compared to supervised learning. 
+* **UnSupervised Learning**: In Unsupervised learning technique, develoepr will allow 
+  the model to work on its own to discover information. It mainly deals with the 
+  unlabelled data. Because of this, unsupervised learning algorithms allow developers 
+  to perform more complex processing tasks compared to supervised learning (see @fig:Supervised width=1in). 
 
-![Supervied-Learning Example[@GroundTruth-sp20-516-250]](./supervised-learning.png){#fig:Supervised width=1in}
 
-## Oky, what is the challange in using unsupervised learning? 
-Below are some of the major challages:
-1. When exploring data using cluster, it is hard to define the number of cluster groups.
-2. Unlike supervised learning; evaluating the metrics and results are very difficult as there is no baseline ground truth (labes) to cross verify.
+  Some of the major challages of unsupervised learning include:
 
-#### What is Amazon SageMaker GroundTruth?
+  1. When exploring data using cluster, it is hard to define the number of cluster groups.
+  2. Unlike supervised learning; evaluating the metrics and results are very difficult 
+     as there is no baseline ground truth (labes) to cross verify.
+
+![Supervied-Learning Example[@GroundTruth-sp20-516-250]](./supervised-learning.png){#fig:Supervised}
+
+
+### SageMaker GroundTruth?
+
 SageMaker GroundTruth is an AWS Managed service which helps the users to accurately label the given dataset in a very efficient and quicker way. There are many approaches that enterprise use to label the large data sets, like using their own workforce (employees) or one of the third party labeling service providers or using Amazon Mechanical Turk workforce (crowdsourced).
 Amazon SageMaker GroundTruth uses the most innovative algorithms to improve the accuracy of human labeling process. Over time, SageMaker GroundTruh model gets improved in a progressive way by learning continuously from the human created labels and further increase speed and efficiency of automatic labeling process.
 
@@ -46,26 +44,35 @@ AWS Official FAQ
 
 * <https://aws.amazon.com/sagemaker/groundtruth/faqs/>
 
-#### Amazon SageMaker Ground Truth Features
+Features include:
 
-## 1. Automated Data Labeling
-At a high-level, the service uses the required machine learning algorithm to improve the accuracy and reduce the human intervention for review and labeling to automate the overall process. 
+1. Automated Data Labeling: At a high-level, the service uses the required machine 
+   learning algorithm to improve the accuracy and reduce the human intervention for 
+   review and labeling to automate the overall process. 
 
-## 2. Flexibility in how you work with labeling professionals
-The service supports various options for manual labeling directly in the SageMaker Ground Truth Console. For an example; Using private workforce or AWS Mechanical Turk or AWS market place (verified) professionals. 
+2. Flexibility in how you work with labeling professionals: The service supports various options for 
+   manual labeling directly in the SageMaker Ground Truth Console. For an example; Using private 
+   workforce or AWS Mechanical Turk or AWS market place (verified) professionals. 
 
-## 3.Easy instructions for human labeling
-GroundTruh service helps the user to follow industry standard and best practice guidance to label any given data set.
-For an example: Following visual instruction is one of the example to help user to attain the highest standard to label the objecgt.
+3. Easy instructions for human labeling: GroundTruh service helps the user to follow 
+   industry standard and best practice guidance to label any given data set.
+   For an example: Following visual instruction is one of the example to help user to 
+   attain the highest standard to label the objecgt (see @fig:Human Labeling Instruction)
 
-![Labeling Example[@GroundTruth-sp20-516-250]](./HumanLabel.png){#fig:Human Labeling Instruction width=1in}
 
-## 4.Use workflows to simplify labeling tasks
-GroundTruth comes with built in workflows such as object detection, text classification, semantic segmentation, image classification that helps human labels to follow step by step instruction to produce high-accuracy.
+4. Use workflows to simplify labeling tasks: GroundTruth comes with built in workflows such 
+   as object detection, text classification, semantic segmentation, image classification 
+   that helps human labels to follow step by step instruction to produce high-accuracy.
 
-#### Pricing
+![Labeling Example[@GroundTruth-sp20-516-250]](./HumanLabel.png){#fig:Human Labeling Instruction}
 
-User only pay for each labeled object labeled automatically by SageMaker GroundTruth or human labeler. These objects can be  the section of text or an image or an audio recording, etc.,. Or, If an user hire a vendor or AWS Mechanical Turk service to provide labels, they will pay an additional cost per labeled object. 
+
+## Pricing
+
+User only pay for each labeled object labeled automatically by SageMaker GroundTruth or human 
+labeler. These objects can be  the section of text or an image or an audio recording, etc.,. 
+Or, if an user hire a vendor or AWS Mechanical Turk service to provide labels, 
+they will pay an additional cost per labeled object. 
 
 * <https://aws.amazon.com/sagemaker/groundtruth/pricing/>
 
